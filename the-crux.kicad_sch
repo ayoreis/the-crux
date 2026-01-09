@@ -4,7 +4,77 @@
 	(generator_version "9.0")
 	(uuid "4df6b704-ba7b-4758-9572-31efc60a9341")
 	(paper "A4")
+	(title_block
+		(title "The Crux")
+		(company "Ayo Reis")
+	)
 	(lib_symbols)
+	(no_connect
+		(at 45.72 27.94)
+		(uuid "ce1de760-00a8-4f71-b49d-899187a8f8b4")
+	)
+	(wire
+		(pts
+			(xy 44.45 27.94) (xy 45.72 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796fdf7f-7364-41ec-bf2e-7ed06d4421ac")
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f95c6e10-c428-458a-8368-7a9511c8e6ee")
+		(property "Sheetname" "LEDs"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 25.4 31.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 44.45 27.94 0)
+			(uuid "d2e15380-e7ae-450e-9818-f3265b8949fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "the-crux"
+				(path "/4df6b704-ba7b-4758-9572-31efc60a9341"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
