@@ -641,6 +641,10 @@
     [
       "f95c6e10-c428-458a-8368-7a9511c8e6ee",
       "LEDs"
+    ],
+    [
+      "97149ece-2fca-4ff2-966c-3c5b8a2822f9",
+      "Linear Hall-Effect Sensors"
     ]
   ],
   "text_variables": {}
