@@ -1,7 +1,8 @@
-/the-crux-backups
+/*-backups/
+/*.bak
+/*.kicad_*-bak
+/*.kicad_prl
 /#auto_saved_files#
-/~the-crux.kicad_sch.lck
+/_autosave-*.kicad_*
 /fp-info-cache
-/The_Crux.bak
-/the-crux.kicad_prl
-/the-crux.kicad_sch-bak
+/~*.kicad_*.lck
