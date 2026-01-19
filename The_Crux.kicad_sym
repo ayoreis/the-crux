@@ -158,7 +158,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 1.27 -7.62 0)
 			(effects
 				(font
@@ -196,7 +196,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LED*SK6812MINI-E*PLCC*3.2x2.8mm*P1.5mm*ReverseMount*"
+		(property "ki_fp_filters" "LED*SK6812MINI-E*PLCC*3.2x2.8mm*P1.5mm*"
 			(at 0 0 0)
 			(effects
 				(font

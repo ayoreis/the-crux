@@ -1,0 +1,246 @@
+(footprint "LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.2mm x 2.8mm PLCC4 Addressable RGB LED Reverse Mount NeoPixel, https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf")
+	(tags "PLCC-4 3528")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5ffd1b18-e1a7-497a-84a3-5bbc6529d700")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b7848d60-950e-4842-81a3-9809503a08ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b13b1d2-9230-4e38-8328-58a9db5d9e9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bd1b416-900c-4af3-ad79-b9570b460e43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -3.65 -1.51) (xy -3.65 1.218406) (xy -3.358406 1.51) (xy 3.67 1.51) (xy 3.66 -1.51)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f49a7790-e332-4842-a556-ba2165636141")
+	)
+	(fp_poly
+		(pts
+			(xy 3.66 -1.51) (xy 3.66 1.218406) (xy 3.368406 1.51) (xy -3.66 1.51) (xy -3.65 -1.51)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "5d1433ef-03ed-42b7-8d11-fa8261592e7c")
+	)
+	(fp_rect
+		(start -1.6 -1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b1979968-7bb1-4bac-9b2c-b059d4d09c52")
+	)
+	(fp_rect
+		(start -3.65 -1.65)
+		(end 3.65 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "8b3128cf-42a6-4745-a73a-dc6c69f6832b")
+	)
+	(fp_rect
+		(start -3.65 -1.65)
+		(end 3.65 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d585bb1d-0586-4279-aa58-a80e3cb106e2")
+	)
+	(fp_poly
+		(pts
+			(xy 1.6 -1.4) (xy 1.6 1.4) (xy -1.6 1.4) (xy -1.6 -0.7) (xy -0.9 -1.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "6ae63636-a2a1-4a21-ad71-dd7fd68c2bbf")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -1.4) (xy -1.6 1.4) (xy 1.6 1.4) (xy 1.6 -0.7) (xy 0.9 -1.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8a59df05-cf3e-43ba-a7d7-e190a8c98bdc")
+	)
+	(fp_text user "1"
+		(at 3.9 -0.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6ee0edc4-337d-4db0-a238-3d7e753b44ff")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "1"
+		(at -3.9 -0.4 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "de0d4ecb-8c88-440c-990f-53f11ccb2442")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7d5fb3d-abfb-456a-b829-50adc23f21de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.5 -0.75)
+		(size 1.8 0.82)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "74f44a18-7e6c-4f13-8483-13011891c9e1")
+	)
+	(pad "1" smd roundrect
+		(at 2.5 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7f88163f-3f7e-44be-9ef8-97aa34f7010f")
+	)
+	(pad "2" smd roundrect
+		(at -2.5 0.75)
+		(size 1.8 0.82)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "059a6a0c-3af1-4de6-9ae0-c13ebada16b0")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "38bba032-0d53-470c-a3f6-1f4063dc64c0")
+	)
+	(pad "3" smd roundrect
+		(at -2.5 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b4629bfa-67bc-4357-b9db-008195c6ce0e")
+	)
+	(pad "3" smd roundrect
+		(at 2.5 0.75)
+		(size 1.8 0.82)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9ec8beca-217b-45df-94bb-8103c873b36d")
+	)
+	(pad "4" smd roundrect
+		(at -2.5 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "13fc69b6-2d88-4cc2-be25-14d353ef1fa0")
+	)
+	(pad "4" smd roundrect
+		(at 2.5 -0.75)
+		(size 1.8 0.82)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7c1cf991-9e4f-4d48-be91-29a597043dcc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/The_Crux.3dshapes/LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -180 -0)
+		)
+	)
+)
