@@ -498,6 +498,48 @@
 		)
 	)
 	(sheet
+		(at 25.4 88.9)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c20befe-17fc-4b3d-af52-a438ec939ea6")
+		(property "Sheetname" "Switches"
+			(at 25.4 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches.kicad_sch"
+			(at 25.4 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "the-crux"
+				(path "/4df6b704-ba7b-4758-9572-31efc60a9341"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 25.4)
 		(size 19.05 5.08)
 		(exclude_from_sim no)
