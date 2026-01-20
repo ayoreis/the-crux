@@ -153,7 +153,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 3.81 12.7 0)
+				(at 2.54 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -161,7 +161,7 @@
 				)
 			)
 			(property "Value" "DRV5056A3xDBZ"
-				(at 3.81 10.16 0)
+				(at 2.54 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -330,7 +330,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "mux"
+			(property "ki_keywords" "mux texas-instruments"
 				(at 0 0 0)
 				(effects
 					(font

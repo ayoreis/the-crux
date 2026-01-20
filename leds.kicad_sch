@@ -273,6 +273,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "The_Crux:SK6812MINI-E"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -294,7 +297,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+			(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -323,7 +326,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(property "ki_keywords" "NeoPixel addressable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -332,7 +335,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*SK6812MINI-E*PLCC*3.2x2.8mm*P1.5mm*ReverseMount*"
+			(property "ki_fp_filters" "LED*SK6812MINI-E*PLCC*3.2x2.8mm*P1.5mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3045,7 +3048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 191.77 115.57 0)
 			(effects
 				(font
@@ -3121,7 +3124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 191.77 151.13 0)
 			(effects
 				(font
@@ -3197,7 +3200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 163.83 151.13 0)
 			(effects
 				(font
@@ -3411,7 +3414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 191.77 80.01 0)
 			(effects
 				(font
@@ -3487,7 +3490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 107.95 80.01 0)
 			(effects
 				(font
@@ -3563,7 +3566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 52.07 80.01 0)
 			(effects
 				(font
@@ -3705,7 +3708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 80.01 115.57 0)
 			(effects
 				(font
@@ -3781,7 +3784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 163.83 80.01 0)
 			(effects
 				(font
@@ -3857,7 +3860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 135.89 115.57 0)
 			(effects
 				(font
@@ -4070,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 52.07 115.57 0)
 			(effects
 				(font
@@ -4560,7 +4563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 107.95 151.13 0)
 			(effects
 				(font
@@ -4840,7 +4843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 107.95 115.57 0)
 			(effects
 				(font
@@ -4916,7 +4919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 52.07 151.13 0)
 			(effects
 				(font
@@ -5196,7 +5199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 80.01 80.01 0)
 			(effects
 				(font
@@ -5472,7 +5475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 135.89 80.01 0)
 			(effects
 				(font
@@ -5548,7 +5551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 163.83 115.57 0)
 			(effects
 				(font
@@ -5825,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 80.01 151.13 0)
 			(effects
 				(font
@@ -5970,7 +5973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "The_Crux:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
 			(at 135.89 151.13 0)
 			(effects
 				(font

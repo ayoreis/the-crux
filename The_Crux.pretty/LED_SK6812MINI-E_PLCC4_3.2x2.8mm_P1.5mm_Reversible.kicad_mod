@@ -3,13 +3,13 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "3.2mm x 2.8mm PLCC4 Addressable RGB LED Reverse Mount NeoPixel, https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf")
+	(descr "3.2mm x 2.8mm PLCC4 Addressable RGB LED Reverse Mount NeoPixel, reversible, https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf")
 	(tags "PLCC-4 3528")
 	(property "Reference" "REF**"
-		(at 0 -2.5 0)
+		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "5ffd1b18-e1a7-497a-84a3-5bbc6529d700")
+		(uuid "2b66103b-681e-49b7-be2b-5d0499023654")
 		(effects
 			(font
 				(size 1 1)
@@ -18,10 +18,10 @@
 		)
 	)
 	(property "Value" "LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_Reversible"
-		(at 0 2.5 0)
+		(at 0 3 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b7848d60-950e-4842-81a3-9809503a08ef")
+		(uuid "a73d7c01-ae4c-4a3e-9863-96203803ab24")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9b13b1d2-9230-4e38-8328-58a9db5d9e9f")
+		(uuid "0e65b5da-5e12-481c-9c1d-d4b420ad1003")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0bd1b416-900c-4af3-ad79-b9570b460e43")
+		(uuid "6c340a21-3568-45b7-8106-558f79a7ab2d")
 		(effects
 			(font
 				(size 1 1)
@@ -58,7 +58,7 @@
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy -3.65 -1.51) (xy -3.65 1.218406) (xy -3.358406 1.51) (xy 3.67 1.51) (xy 3.66 -1.51)
+			(xy 3.66 -1.96) (xy 3.66 1.96) (xy -2.918406 1.96) (xy -3.66 1.218406) (xy -3.66 -1.96)
 		)
 		(stroke
 			(width 0.12)
@@ -66,11 +66,11 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "f49a7790-e332-4842-a556-ba2165636141")
+		(uuid "5f096aa1-ff19-49ae-8259-da5ffc5be637")
 	)
 	(fp_poly
 		(pts
-			(xy 3.66 -1.51) (xy 3.66 1.218406) (xy 3.368406 1.51) (xy -3.66 1.51) (xy -3.65 -1.51)
+			(xy -3.66 -1.96) (xy -3.66 1.96) (xy 2.918406 1.96) (xy 3.66 1.218406) (xy 3.66 -1.96)
 		)
 		(stroke
 			(width 0.12)
@@ -78,7 +78,7 @@
 		)
 		(fill no)
 		(layer "B.SilkS")
-		(uuid "5d1433ef-03ed-42b7-8d11-fa8261592e7c")
+		(uuid "1d0cd8f4-6b5c-43ad-be33-ca527e42257e")
 	)
 	(fp_rect
 		(start -1.6 -1.4)
@@ -138,7 +138,7 @@
 		(uuid "8a59df05-cf3e-43ba-a7d7-e190a8c98bdc")
 	)
 	(fp_text user "1"
-		(at 3.9 -0.4 0)
+		(at 2.5 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6ee0edc4-337d-4db0-a238-3d7e753b44ff")
@@ -147,11 +147,10 @@
 				(size 0.5 0.5)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(fp_text user "1"
-		(at -3.9 -0.4 0)
+		(at -2.5 -1.5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "de0d4ecb-8c88-440c-990f-53f11ccb2442")
@@ -160,7 +159,7 @@
 				(size 0.5 0.5)
 				(thickness 0.1)
 			)
-			(justify left bottom mirror)
+			(justify mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
