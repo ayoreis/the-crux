@@ -1,7 +1,3 @@
-/The_Crux.3dshapes/LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm.step
-/The_Crux.3dshapes/SW_GATERON_LowProfileMagneticJadePro.step
-/The_Crux.3dshapes/SW_GATERON_LowProfileMagneticJade.step
-/*-backups/
 /*.bak
 /*.kicad_*-bak
 /*.kicad_prl
@@ -9,3 +5,4 @@
 /_autosave-*.kicad_*
 /fp-info-cache
 /~*.kicad_*.lck
+/.history/
