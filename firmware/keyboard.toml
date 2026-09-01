@@ -1,0 +1,33 @@
+[keyboard]
+name = "The_Crux"
+product_name = "The_Crux"
+vendor_id = 0x4c4b
+product_id = 0x4643
+manufacturer = "RMK"
+chip = "rp2040"
+
+[matrix]
+# Row and col pins are mandatory
+row_pins = ["PIN_0", "PIN_1", "PIN_2", "PIN_3", "PIN_4", "PIN_5"]
+col_pins = ["PIN_6", "PIN_8", "PIN_7", "PIN_9", "PIN_10"]
+# RMK uses col2row as the default matrix diode direction, if you want to use a row2col matrix, add `row2col = true`
+row2col = true
+
+[layout]
+rows = 6
+cols = 5
+map = """
+(0,0)  (0,1)  (0,2)  (0,3)  (0,4)  (3,0)  (3,1)  (3,2)  (3,3)  (3,4)
+(1,0)  (1,1)  (1,2)  (1,3)  (1,4)  (4,0)  (4,1)  (4,2)  (4,3)  (4,4)
+(2,0)  (2,1)  (2,2)  (2,3)  (2,4)  (5,0)  (5,1)  (5,2)  (5,3)  (5,4)
+"""
+
+[keymap]
+layers = 3
+
+[[keymap.layer]] # layer 0
+keys = """
+A A A A A A A A A A
+A A A A A A A A A A
+A A A A A A A A A A
+"""

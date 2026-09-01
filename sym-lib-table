@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "The_Crux")(type "KiCad")(uri "${KIPRJMOD}/The_Crux.kicad_sym")(options "")(descr ""))
-)

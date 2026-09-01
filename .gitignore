@@ -1,8 +1,4 @@
-/*.bak
-/*.kicad_*-bak
-/*.kicad_prl
-/#auto_saved_files#
-/_autosave-*.kicad_*
-/fp-info-cache
-/~*.kicad_*.lck
 /.history/
+*.FCBak
+*.kicad_prl
+*.lck
