@@ -2,6 +2,8 @@
 
 A minimal 3x10 ortholinear keyboard. Driven by a RP2040 with [RMK](https://rmk.rs) + [Vial](https://get.vial.today).
 
+I've always wanted to make a keyboard, I actually started this one with much more ambitious ideas (you can find them in my earlier journals, or by going back the commit history) but realized I should start out with something simpler. So I made this! It was quite nice, and maybe I'll improve it with my previous ideas one-by-one :)
+
 ![Schematic](images/schematic.svg)
 ![PCB](images/pcb.svg)
 ![Zine](images/zine.jpeg)
