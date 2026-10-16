@@ -13,11 +13,11 @@ I've always wanted to make a keyboard, I actually started this one with much mor
 At the top-level there's a general "bom.csv". Then the directories:
 
 - "pcb/" contains a KiCad project and generated production files with KiCAD JLCPCB tools under "pcb/jlcpcb/".
-- "standoffs/" contains a FreeCAD file and an exported "standoff.step".
+- "case/" contains a FreeCAD file and an exported "case.step".
 - "images/" contains the images above and the zine in PDF format.
 - "firmware/" contains the RMK and Vial firmware. With the compiled UF2 file at "firmware/The_Crux.uf2".
 
-The standoffs are press-fit into the PCB, it's parametric so it can be tuned for different 3D printers.
+The case and plate are a single piece sandwiched between the switches and PCB, so it must be fit before soldering.
 
 ---
 
